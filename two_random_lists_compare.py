@@ -2,7 +2,7 @@
 import random
 randomlist1 = [random.randint(1,50)for x in range(10)]
 print(randomlist1)
-randomlist2 = [random.randint(1,100) for y in range(15)]
+randomlist2 = [random.randint(1,150) for y in range(15)]
 print(randomlist2)
 combolist = [a for a in randomlist1 if a in randomlist2]
 print(combolist)
